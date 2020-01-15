@@ -29,7 +29,8 @@ body {
 }
 
 /* Blog Title */
-.seBlogEntryTitle {
+.seBlogEntryTitle a {
+    font-size: 24px;
     font-weight: normal;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
     color: #b5e853;
