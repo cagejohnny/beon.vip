@@ -1,0 +1,3 @@
+.top_header::after {
+    content: '<b>test</b>'
+}
