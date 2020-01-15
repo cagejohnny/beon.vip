@@ -49,3 +49,6 @@ body {
 .seBlogEntry {
     border-bottom: 1px dashed #b5e853;
 }
+.seBlogEntryDate, .seBlogEntryCategory {
+    font-size: 12px;
+}
