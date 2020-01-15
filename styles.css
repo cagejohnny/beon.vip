@@ -1,3 +1,7 @@
+/* Global */
+body {
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace !important;
+}
 /* Change logo */
 .top_header img {
     display: none
@@ -12,10 +16,23 @@
     text-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0 5px rgba(181,232,83,0.1), 0 0 10px rgba(181,232,83,0.1);
     letter-spacing: -1px;
     -webkit-font-smoothing: antialiased;
+    margin-left: auto;
+}
+.top_header a:first-child:hover {
+    text-decoration: none;
 }
 .top_header a:first-child:before {
     content: './ ';
 }
 .top_header a:first-child:after {
     content: 'beon.vip';
+}
+
+/* Blog Title */
+.seBlogEntryTitle {
+    font-weight: normal;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    color: #b5e853;
+    letter-spacing: -0.03em;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0 5px rgba(181,232,83,0.1), 0 0 10px rgba(181,232,83,0.1);
 }
