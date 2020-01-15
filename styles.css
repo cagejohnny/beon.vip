@@ -1,3 +1,9 @@
-.top_header::after {
-    content: '<b>test</b>'
+.top_header img::before {
+    content: './ '
+}
+.top_header img {
+    display: none
+}
+.top_header img::after {
+    content: 'beon.vip'
 }
