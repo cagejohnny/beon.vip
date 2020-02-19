@@ -18,13 +18,13 @@ body {
     -webkit-font-smoothing: antialiased;
     margin-left: auto;
 }
-.top_header a:first-child:hover {
+.top_header a[href="./"]:first-child:hover {
     text-decoration: none;
 }
-.top_header a:first-child:before {
+.top_header a[href="./"]:first-child:before {
     content: './ ';
 }
-.top_header a:first-child:after {
+.top_header a[href="./"]:first-child:after {
     content: 'beon.vip';
 }
 
