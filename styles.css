@@ -6,7 +6,7 @@ body {
 .top_header img {
     display: none
 }
-.top_header a:first-child {
+.top_header a[href="./"]:first-child {
     font-size: 30px;
     line-height: 1.5;
     margin: 0 0 0 -40px;
