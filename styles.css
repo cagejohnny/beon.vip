@@ -60,6 +60,6 @@ body {
 }
 
 div.profile_comment_author, div.profile_comment_date {
-	background: none !important;
-	border-top: 1px solid #b5e853;
+    background: none !important;
+    border-top: 1px solid #b5e853;
 }
