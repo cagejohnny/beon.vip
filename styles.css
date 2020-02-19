@@ -3,7 +3,7 @@ body {
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace !important;
 }
 .top_header {
-    background: none;
+    background: #151515 url(../images/bkg.png) 0 0;
 }
 /* Change logo */
 .top_header img {
@@ -29,6 +29,9 @@ body {
 }
 .top_header a[href="./"]:first-child:after {
     content: 'beon.vip';
+}
+.top_header table {
+    margin: auto;
 }
 
 /* Blog */
