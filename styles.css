@@ -52,7 +52,7 @@ body {
 .profile_leftside .profile_menu {
     border: none;
 }
-.post_container:first-of-type {
+.card:first-of-type .post {
     border-top: 1px dashed #b5e853;
 }
 .post_container {
