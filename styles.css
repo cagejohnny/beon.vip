@@ -35,7 +35,10 @@ body {
 }
 
 /* Blog */
-.seBlogEntryTitle a {
+.card {
+    background-color: transparent;
+}
+.card-title a {
     font-size: 24px;
     font-weight: normal;
     font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -43,22 +46,18 @@ body {
     letter-spacing: -0.03em;
     text-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0 5px rgba(181,232,83,0.1), 0 0 10px rgba(181,232,83,0.1);
 }
-
 .seBlogColumnRight, .profile_leftside .profile_photo {
     border: 1px dashed #b5e853;
 }
-
 .profile_leftside .profile_menu {
     border: none;
 }
-
-.seBlogEntry {
+.post_container {
     border-bottom: 1px dashed #b5e853;
 }
 .seBlogEntryDate, .seBlogEntryCategory {
     font-size: 12px;
 }
-
 div.profile_comment_author, div.profile_comment_date {
     background: none !important;
     border-top: 1px solid #b5e853;
