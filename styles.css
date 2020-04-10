@@ -52,6 +52,9 @@ body {
 .profile_leftside .profile_menu {
     border: none;
 }
+.post_container:first-of-type {
+    border-top: 1px dashed #b5e853;
+}
 .post_container {
     border-bottom: 1px dashed #b5e853;
 }
