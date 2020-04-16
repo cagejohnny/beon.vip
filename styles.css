@@ -112,6 +112,9 @@ img.photo {
     background-image: none;
     background-color: #b5e853;
 }
+.seBlogColumnRightPadding {
+    padding-top: 0;
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
