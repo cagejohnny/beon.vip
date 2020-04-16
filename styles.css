@@ -53,7 +53,7 @@ body {
     border: none;
     margin: 0;
 }
-.profile_leftside:first-child {
+.profile_leftside table {
     margin-bottom: 0 !important;
 }
 .profile_menu1 {
