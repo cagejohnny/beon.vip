@@ -105,3 +105,10 @@ td.profile_tab a, td.profile_tab a:hover, td.profile_tab2 a, td.profile_tab2 a:h
 td.profile_tab2 a, td.profile_tab2 a:hover, td.profile_tab a:hover {
     background-color: #b5e853;
 }
+img.photo {
+    border: 1px solid #b5e853;
+}
+.profile_leftside td.header  {
+    background-image: none;
+    background-color: #b5e853;
+}
