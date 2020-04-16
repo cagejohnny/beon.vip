@@ -62,9 +62,6 @@ body {
 .profile_menu1 {
     padding: 0;
 }
-#profile_tabs_profile {
-    border-left: none;
-}
 td.profile_menu1 a, td.profile_menu1 a:hover {
     background-image: none;
     background-color: transparent;
