@@ -51,6 +51,13 @@ body {
 }
 .profile_leftside .profile_menu {
     border: none;
+    margin: 0;
+}
+.profile_leftside:first-child {
+    margin-bottom: 0 !important;
+}
+.profile_menu1 {
+    padding: 0;
 }
 .card:first-of-type .post {
     border-top: 1px dashed #b5e853;
