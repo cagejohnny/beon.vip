@@ -92,7 +92,7 @@ div.profile_comment_author, div.profile_comment_date {
 #profile_tabs_profile {
     border-left: 1px dashed #b5e853;
 }
-td.profile_tab a, td.profile_tab2 a {
+td.profile_tab a, td.profile_tab a:hover, td.profile_tab2 a, td.profile_tab2 a:hover {
     background-color: transparent;
     background-image: none;
     border: 1px dashed #b5e853;
