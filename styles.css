@@ -56,6 +56,9 @@ body {
 .profile_leftside table, .profile_rightside table {
     margin-bottom: 0 !important;
 }
+.profile_rightside table td {
+    padding: 0;
+}
 .profile_menu1 {
     padding: 0;
 }
