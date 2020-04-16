@@ -59,6 +59,11 @@ body {
 .profile_menu1 {
     padding: 0;
 }
+td.profile_menu1 a {
+    background-image: none;
+    background-color: transparent;
+    border-bottom: 0;
+}
 .card:first-of-type .post {
     border-top: 1px dashed #b5e853;
 }
