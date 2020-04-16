@@ -46,14 +46,14 @@ body {
     letter-spacing: -0.03em;
     text-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0 5px rgba(181,232,83,0.1), 0 0 10px rgba(181,232,83,0.1);
 }
-.seBlogColumnRight, .profile_leftside .profile_photo {
+.seBlogColumnRight, .profile_leftside .profile_photo, td.header, td.profile {
     border: 1px dashed #b5e853;
 }
 .profile_leftside .profile_menu {
     border: none;
     margin: 0;
 }
-.profile_leftside table {
+.profile_leftside table, .profile_rightside table {
     margin-bottom: 0 !important;
 }
 .profile_menu1 {
@@ -64,7 +64,7 @@ td.profile_menu1 a, td.profile_menu1 a:hover {
     background-color: transparent;
     border-bottom: 0;
 }
-.card:first-of-type .post, td.header, td.profile {
+.card:first-of-type .post {
     border-top: 1px dashed #b5e853;
 }
 .post_container {
