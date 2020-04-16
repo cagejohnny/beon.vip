@@ -82,6 +82,9 @@ td.profile_menu1 a, td.profile_menu1 a:hover {
 .card:first-of-type .post, div.profile_blogentry {
     border-top: 1px dashed #b5e853;
 }
+.card:first-of-type .post .card-title {
+    margin-top: 0.5rem;
+}
 .post_container, div.profile_action, td.profile_tab_end {
     border-bottom: 1px dashed #b5e853;
 }
