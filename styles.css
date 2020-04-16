@@ -46,7 +46,7 @@ body {
     letter-spacing: -0.03em;
     text-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 0 5px rgba(181,232,83,0.1), 0 0 10px rgba(181,232,83,0.1);
 }
-.seBlogColumnRight, .profile_leftside .profile_photo, td.header, td.profile, div.profile_content {
+.card, .profile_leftside .profile_photo, td.header, td.profile, div.profile_content {
     border: 1px dashed #b5e853;
 }
 div.profile_content {
@@ -111,9 +111,6 @@ img.photo {
 .profile_leftside td.header  {
     background-image: none;
     background-color: #b5e853;
-}
-.card {
-    border: 1px dashed #b5e853;
 }
 ::-webkit-scrollbar {
     width: 10px;
