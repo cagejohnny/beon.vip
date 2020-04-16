@@ -62,6 +62,9 @@ body {
 .profile_menu1 {
     padding: 0;
 }
+#profile_profile #actions {
+    padding-bottom: 0 !important;
+}
 td.profile_menu1 a, td.profile_menu1 a:hover {
     background-image: none;
     background-color: transparent;
