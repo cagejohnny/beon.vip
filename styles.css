@@ -89,3 +89,11 @@ div.profile_comment_author, div.profile_comment_date {
     background: none !important;
     border-top: 1px solid #b5e853;
 }
+#profile_tabs_profile {
+    border-left: 1px dashed #b5e853;
+}
+td.profile_tab a, td.profile_tab2 a {
+    border: 1px dashed #b5e853;
+    border-left: none;
+}
+
