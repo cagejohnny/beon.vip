@@ -79,7 +79,7 @@ td.profile_menu1 a, td.profile_menu1 a:hover {
 .card:first-of-type .post {
     border-top: 1px dashed #b5e853;
 }
-.post_container {
+.post_container, div.profile_action {
     border-bottom: 1px dashed #b5e853;
 }
 .seBlogEntryDate, .seBlogEntryCategory {
