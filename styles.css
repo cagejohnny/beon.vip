@@ -97,6 +97,7 @@ td.profile_tab a, td.profile_tab a:hover, td.profile_tab2 a, td.profile_tab2 a:h
     background-image: none;
     border: 1px dashed #b5e853;
     border-left: none;
+    padding: 7px 10px;
 }
 td.profile_tab2 a, td.profile_tab2 a:hover, td.profile_tab a:hover {
     background-color: #b5e853;
