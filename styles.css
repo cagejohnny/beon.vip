@@ -64,7 +64,7 @@ td.profile_menu1 a, td.profile_menu1 a:hover {
     background-color: transparent;
     border-bottom: 0;
 }
-.card:first-of-type .post {
+.card:first-of-type .post, td.header, td.profile {
     border-top: 1px dashed #b5e853;
 }
 .post_container {
