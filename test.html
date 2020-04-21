@@ -1,0 +1,48 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">
+    window.requestAnimFrame = (function(){
+        return window.requestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.oRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        function(callback){
+            window.setTimeout(callback, 20);
+        };
+    })();
+    (function($){
+        $(document).ready(function() {
+            var wx = $(window).width();
+            var wy = $(window).height();
+            
+            $(window).on('resize',function(){
+                wx = $(window).width();
+                wy = $(window).height();
+            });
+            
+            var x = 0, y = 0;
+            var dx = 1, dy = 1;
+            
+            if (window.location.href.includes('beon.vip/johnny/blog/') ) {
+                var cube = $('<div id="mycube" style="background:green; width:10px; height:10px; display:block; position:absolute; z-index:9999"></div>');
+                $('body').append(cube);
+                function animate(){
+                    if (x >= wx-10) dx = -1;
+                    if (x <= 0) dx = 1;
+                    if (y >= wy-10) dy = -1;
+                    if (y <= 0) dy = 1;
+                    
+                    x += dx;
+                    y +=dy;
+                    
+                    cube.css({top: y, left: x});
+                    
+                    requestAnimFrame(animate);
+                }
+                
+                requestAnimFrame(animate);
+            }
+        });
+    })(jQuery);
+    var wx = window.width
+</script>
