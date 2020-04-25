@@ -1,0 +1,138 @@
+/*!!
+ *  Предоставил(а) дизайн: https://beon.vip/Ulitoska/
+ *  
+ */
+
+/*ширина фото в профиле*/
+.profile_photo img {
+  max-width: 250px;
+}
+
+/*фон набора комментариев*/
+textarea {
+  background-color: #c4eadf !important;
+}
+
+/*фон в друзьях*/
+div.browse_friends_result {
+  background: #c4eadf !important;
+}
+
+/*меню выпадающее*/
+.menu_item {
+  background: #c4eadf !important;
+  border: none !important;
+}
+
+/* отправить подарок */
+td.profile_menu1 a,
+div.nolink {
+  background: #c4eadf !important;
+}
+
+/*цвет при наведении на кнопки в меню*/
+td.profile_menu1 a:hover {
+  background: #40b9b2 !important;
+}
+
+table.profile_menu {
+  border: none !important;
+}
+
+/*рамки,шрифт*/
+div,
+a,
+td {
+  border: none !important;
+  font-family: Courier New;
+}
+
+/*цвет полосок в меню*/
+.header {
+  background: #cdece8 !important;
+}
+
+/*смещение имени*/
+.page_header {
+  margin-left: 60px !important;
+}
+
+/* цвет профиль,друзья и тд при нажатии*/
+td.profile_tab2 a {
+  background: #cdece8 !important;
+}
+
+/* цвет профиль,друзья и тд */
+td.profile_tab a,
+td.profile_tab {
+  background: #40b9b2 !important;
+}
+
+/*кнопка написать в дневник*/
+.btn-primary {
+  background-color: #40b9b2 !important;
+  border: none;
+}
+
+/*колокольчик и стрелочка */
+.button_down {
+  padding: 8px 9px;
+  border: none;
+  border-radius: 50%;
+  background: #40b9b2 !important;
+  transition: background-color 0.3s ease;
+}
+
+/*видимость иконок в боковом меню*/
+.icon {
+  display: none;
+}
+
+/*видимость иконок вверху*/
+.menu_icon2 {
+  display: none;
+}
+
+/*фон*/
+body {
+  background: url(https://beon.vip/uploads_image/db/aa/dbaa30994cbfb91be778a6a79c2a81c5.png) #f9f7fa repeat fixed bottom left !important;
+}
+
+/*основной блок с инфой*/
+.content {
+  display: block;
+  background: rgba(229, 243, 241, 0.9);
+  width: 1000px !important;
+  max-height: 800x !important;
+}
+
+/*цвет текста профиль,друзья и тд*/
+a {
+  color: #01150f !important;
+}
+
+/*цвет текста в меню слева*/
+div {
+  color: #01150f !important;
+}
+
+/*шапка*/
+.top_header {
+  background: rgba(229, 243, 241, 0.9);
+  box-shadow: none !important;
+}
+
+.top_header img[src$="./images/logo_new.png"] {
+  content: url(https://beon.vip/uploads_image/a0/3f/a03fb68bd16271a4e6d7d9b39bc4bed1.png);
+}
+
+/* Отступ между шапкой и блоком профиля */
+.top_header {
+  position: static !important;
+  margin-bottom: -80px !important;
+}
+
+/*убрать значок редактора дизайна*/
+.he_styler_customize_btn {
+  display: none !important;
+}
