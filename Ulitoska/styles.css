@@ -136,3 +136,8 @@ div {
 .he_styler_customize_btn {
   display: none !important;
 }
+
+/*длина левого бока в дневнике исправлена */
+#lefthome {
+  width: auto;
+}
