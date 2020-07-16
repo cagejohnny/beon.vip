@@ -141,3 +141,10 @@ div {
 #lefthome {
   width: auto;
 }
+
+.blog_gifts div:nth-child(2){
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
