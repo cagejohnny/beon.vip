@@ -103,7 +103,6 @@ body {
   display: block;
   background: rgba(229, 243, 241, 0.9);
   width: 1000px !important;
-  max-height: 800px !important;
 }
 
 /*цвет текста профиль,друзья и тд*/
@@ -155,6 +154,5 @@ div {
   }
   .content {
     width: 100% !important;
-    max-height: none !important;
   }
 }
