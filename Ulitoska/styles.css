@@ -117,7 +117,7 @@ div {
 }
 
 /*шапка*/
-.top_header {
+.top_header, .top_mobile_menu {
   background: rgba(229, 243, 241, 0.9);
   box-shadow: none !important;
 }
@@ -147,4 +147,10 @@ div {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+
+@media only screen and (max-width: 414px) {
+  .card-title {
+    font-size: 2.0em;
+  }
 }
