@@ -153,4 +153,8 @@ div {
   .card-title {
     font-size: 2.0em;
   }
+  .content {
+    width: 100%;
+    max-height: none;
+  }
 }
